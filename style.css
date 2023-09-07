@@ -197,8 +197,8 @@ body{
     }
     .numbers .circle{
         position: absolute;
-        width: 110px;
-        height: 110px;
+        width: 125px;
+        height: 125px;
         border: 1px solid rgba(0,0,0,0.75);
         border-radius: 50%;
         display: flex;
@@ -207,16 +207,16 @@ body{
         z-index: 10;
     }
     .numbers .circle#min{
-        width: 85px;
-        height: 85px; 
+        width: 100px;
+        height: 100px; 
      }
      .numbers .circle#hrs{
-         width: 65px;
-        height: 65px; 
+         width: 75px;
+        height: 75px; 
      }
      .numbers .circle i{
         position: absolute;
-        width: 4px;
+        width: 3px;
         height: 50%;
         background: var(--clr);
         opacity: 0.75;
@@ -227,7 +227,7 @@ body{
        width: 2px;
     }
     .numbers .circle#min i{
-        width: 4px;
+        width: 3px;
      }
      .numbers span{
         position: absolute;
