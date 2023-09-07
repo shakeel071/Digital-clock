@@ -23,7 +23,7 @@ let m=new Date().getMinutes();
 let s=new Date().getSeconds();
 
 var am= h >= 12 ? 'PM':'AM';
-// convert 24hrs to 12hrs
+// convert 24Hours to 12 Hours
 if(h>12){
     h=h-12;
 }
